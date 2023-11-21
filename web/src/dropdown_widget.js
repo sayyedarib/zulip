@@ -48,7 +48,7 @@ export class DropdownWidget {
         hide_search_box = false,
     }) {
         this.widget_name = widget_name;
-        this.widget_id = `#${CSS.escape(widget_name)}_widget`;
+        this.widget_id = `#${CSS.escape(widget_name)}-widget`;
         // A widget wrapper may not exist based on the UI requirement.
         this.widget_wrapper_id = `${this.widget_id}_wrapper`;
         this.widget_value_selector = `${this.widget_id} .dropdown_widget_value`;

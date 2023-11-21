@@ -63,7 +63,7 @@ let collapsed_containers = new Set();
 
 let search_keyword = "";
 const INBOX_SEARCH_ID = "inbox-search";
-const INBOX_FILTERS_DROPDOWN_ID = "inbox-filter_widget";
+const INBOX_FILTERS_DROPDOWN_ID = "inbox-filter-widget";
 export let current_focus_id;
 
 const STREAM_HEADER_PREFIX = "inbox-stream-header-";
